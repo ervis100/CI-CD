@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-new-image</finalName>
 	</build>
 
 </project>
