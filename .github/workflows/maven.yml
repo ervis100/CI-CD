@@ -32,7 +32,7 @@ jobs:
         run: |
           echo "MY_OUTPUT_KEY=$(cat my_output.env)" >> $GITHUB_ENV
       - name: Build & Push Docker image
-        uses: mr-smithers-exellent/docker-build-push@v5
+        uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: ervis10/springboot-new-image
           tags: latest
