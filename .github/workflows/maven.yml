@@ -37,6 +37,6 @@ jobs:
           image: ervis10/springboot-new-image
           tags: latest
           registry: docker.io
-          dockerfile: Dockerfile.ci.ci
+          dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
