@@ -1,0 +1,5 @@
+services:
+  myapp:
+    image: ervis10/springboot-new-image:latest
+    ports:
+      - "8080:80"

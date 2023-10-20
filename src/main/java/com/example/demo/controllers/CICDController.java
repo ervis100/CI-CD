@@ -14,7 +14,7 @@ public class CICDController {
 
     @GetMapping("/welcome")
     public String welcome() {
-        return String.format("Ervis Lusha,  %s", welcome);
+        return String.format("Ervis Agron Lusha,  %s", welcome);
     }
 
 }
